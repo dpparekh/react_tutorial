@@ -8,5 +8,40 @@
         "id": 1420070400000,
         "author": "Paul O’Shannessy",
         "text": "React is *great*!"
+    },
+    {
+        "id": 1420070400001,
+        "author": "Dhaval Parekh",
+        "text": "React is awesome!"
+    },
+    {
+        "id": 1420070400002,
+        "author": "Chad Cartwright",
+        "text": "I don't want to learn React"
+    },
+    {
+        "id": 1458424831813,
+        "author": "Rupal patel",
+        "text": "what is react?"
+    },
+    {
+        "id": 1458424915450,
+        "author": "Dhaval Parekh",
+        "text": "it is a a js framework"
+    },
+    {
+        "id": 1458424924087,
+        "author": "Chad",
+        "text": "what is a framework?"
+    },
+    {
+        "id": 1458425992870,
+        "author": "shiv parekh",
+        "text": "thsi is a test..."
+    },
+    {
+        "id": 1458426027976,
+        "author": "new person",
+        "text": "yah.. this is a test.."
     }
 ]
