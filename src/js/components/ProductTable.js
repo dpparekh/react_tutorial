@@ -6,7 +6,7 @@ const ProductTable = React.createClass({
   getInitialState: function(){
     return {rows: []};
   },
-  componentDidMount: function(){
+  createRowsToDisplay: function(){
     var lastCategory = null;
     var rows = [];
     this.props.products.forEach(function(product){
@@ -16,7 +16,7 @@ const ProductTable = React.createClass({
       rows.push(<ProductRow product={product} key={product.name} />);
       lastCategory = product.category;
     });
-    this.setState({rows: rows});
+    return rows;
   },
   render: function(){
     return(
@@ -28,7 +28,7 @@ const ProductTable = React.createClass({
             </tr>
           </thead>
           <tbody>
-            {this.state.rows}
+            {this.createRowsToDisplay()}
           </tbody>
       </table>
     );
